@@ -89,16 +89,19 @@
 <div class="container">
     <h1>Velkommen</h1>
 
-    <div class="weather-box">
-        <iframe src="https://yr.no" 
-                width="100%" height="120" frameborder="0" style="border:none;"></iframe>
-    </div>
+<!-- Vær-seksjon (WeatherWidget.io - Gratis og uten API-nøkkel) -->
+<div class="weather-box">
+    <a class="weatherwidget-io" href="https://forecast7.com" data-label_1="STOKKE" data-label_2="VÆRET" data-font="Roboto" data-icons="Climacons Animated" data-theme="pure" >STOKKE VÆRET</a>
+    <script>
+    !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src='https://weatherwidget.io;}}(document,'script','weatherwidget-io-js');
+    </script>
+</div>
 
     <div class="category">
         <h2>Sosialt & Sky</h2>
         <div class="grid">
             <a href="https://facebook.com" class="btn"><i class="fab fa-facebook-f"></i><span>Facebook</span></a>
-            <a href="https://hudd.com" class="btn"><i class="fas fa-comments"></i><span>Hudd</span></a>
+            <a href="https://hudd.no" class="btn"><i class="fas fa-comments"></i><span>Hudd</span></a>
             <a href="https://icloud.com" class="btn"><i class="fas fa-cloud"></i><span>iCloud</span></a>
         </div>
     </div>
